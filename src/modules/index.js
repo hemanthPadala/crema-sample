@@ -16,8 +16,8 @@ import {initialUrl} from '../shared/constants/AppConst';
 import {menuLevelConfig} from './menu';
 
 const routeConfigs = [
-  ...dashBoardConfigs,
   ...authRouteConfig,
+  ...dashBoardConfigs,
   ...muiComponentConfigs,
   ...thirdPartyConfigs,
   ...userPagesConfig,

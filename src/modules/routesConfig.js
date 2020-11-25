@@ -1,5 +1,3 @@
-import {authRole} from '../shared/constants/AppConst';
-
 const routesConfig = [
   {
     id: 'app',
@@ -15,19 +13,12 @@ const routesConfig = [
         icon: 'dashboard',
         children: [
           {
-            id: 'e-commerce',
-            title: 'E-Commerce',
-            messageId: 'sidebar.app.dashboard.eCommerce',
-            type: 'item',
-            url: '/dashboards/e-commerce',
-          },
-          {
             id: 'profile',
             title: 'Profile',
-            messageId: 'Profile',
+            messageId: 'sidebar.app.dashboard.profile',
             type: 'item',
             url: '/dashboards/profile',
-          },         
+          },        
         ],
       },
     ],
