@@ -40,13 +40,5 @@ export const authRouteConfig = [
         component: React.lazy(() => import('./ForgetPassword')),
       },
     ],
-  },
-  {
-    routes: [
-      {
-        path: '/error-pages/error-404',
-        component: React.lazy(() => import('../errorPages/Error404/index')),
-      },
-    ],
-  },
+  }
 ];
